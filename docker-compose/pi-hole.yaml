@@ -1,3 +1,6 @@
+# Install
+# curl -fsSL https://raw.githubusercontent.com/ejohnmarlo/docker/master/docker-compose/pi-hole.yml -o pi-hole.yml
+
 version: "3"
 
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
