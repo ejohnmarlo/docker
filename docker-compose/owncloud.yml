@@ -1,3 +1,6 @@
+#Install
+# curl -fsSL https://raw.githubusercontent.com/ejohnmarlo/docker/master/docker-compose/owncloud.yml -o owncloud.yml
+
 # ownCloud with MariaDB/MySQL
 #
 # Access via "http://localhost:8080" (or "http://$(docker-machine ip):8080" if using docker-machine)
