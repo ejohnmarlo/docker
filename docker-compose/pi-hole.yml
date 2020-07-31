@@ -1,5 +1,8 @@
 # Install
 # curl -fsSL https://raw.githubusercontent.com/ejohnmarlo/docker/master/docker-compose/pi-hole.yml -o pi-hole.yml
+#
+# Issues:
+# For restarting container => disable systemd-resolved
 
 # Reset Web Password
 # docker exec -it pihole_container_name pihole -a -p
