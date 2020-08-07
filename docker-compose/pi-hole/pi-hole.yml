@@ -2,6 +2,7 @@
 # curl -fsSL https://raw.githubusercontent.com/ejohnmarlo/docker/master/docker-compose/pi-hole/pi-hole.yml -o pi-hole.yml
 #
 # Issues:
+# Check ports: 53 and 80
 # Check logs: docker logs pihole | grep "port 53"
 # Port 53 already in use: netstat -tulpn | grep LISTEN
 #                         kill -9 $(pidof dnsmasq)
