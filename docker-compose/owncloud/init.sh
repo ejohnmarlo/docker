@@ -43,7 +43,7 @@ docker-compose up --force-recreate -d owncloud
 echo
 
 echo "### Starting mariadb ..."
-docker-compose up --force-recreate -d mariadb
+docker-compose up --force-recreate -d mysql
 echo
 
 echo "### Starting nginx ..."
